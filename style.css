@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body{  
+  margin-left: auto;
+  margin-right: auto;
+  width: 21cm;
+  height: 29.7cm; 
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  background-color:#DCDCDC;
+  padding-left: 0%;
+  padding-bottom: 11rem;
+}
+
+li {
+  border: 0.1rem solid rgb(115, 111, 111);
+}
+
+#li1{
+  background-color: #696969;
+  font-size: 15px;
+  color:#DCDCDC;
+  font-family : "Arial";
+  padding: 0.5rem;
+}
+
+#li2{
+  background-color: #dbdbdb;
+  font-size: 12px;
+  color:gray;
+  font-family : "Arial";
+  padding-left: 1.5em;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#li3{
+  background-color: #696969;
+  font-size: 13px;
+  color:#DCDCDC;
+  font-family : "Arial";
+  padding: 0.5rem;
+  padding-right: 59%;
+}
+
+section h2{
+  color: #696969;
+  font-family : "Arial";
+  text-align: center;
+}
+
+span{
+  font-size: 15px;
+}
+
+#section2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section article{
+  background-color: #dbdbdb;
+  width:16rem;
+  height:18rem
+}
+
+form{
+  margin-top: 3rem;
+  border-top: solid #696969;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+h2{
+  font-family : "Arial";
+}
+
+input,textarea{
+  margin: 1rem;
+}
